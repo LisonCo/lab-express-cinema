@@ -1,0 +1,35 @@
+#global-container {
+    padding : 4%;
+}
+
+#movies-container {
+    display : flex;
+    justify-content: space-around;
+    flex-wrap : wrap;
+}
+
+.each-movie {
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    width : 25%;
+    padding : 2%;
+}
+
+#movie {
+    margin : 8%;
+    display : flex;
+    justify-content: flex-start;
+}
+
+#movie-description {
+    margin-left : 5%;
+    display : flex;
+    flex-direction : column;
+    justify-content : space-around;
+}
+
+#movie-description h2 {
+    font-weight : bold;
+    margin : 0;
+}
