@@ -57,6 +57,8 @@ const movies = require('./routes/movies');
 app.use('/', movies);
 const movieID = require('./routes/movieID');
 app.use('/', movieID);
+const movieDelete = require('./routes/delete');
+app.use('/', movieDelete);
 
 
 module.exports = app;
